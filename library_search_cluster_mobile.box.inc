@@ -19,10 +19,11 @@ function library_search_cluster_mobile_default_box() {
   $box->description = 'Encore Mobile Version';
   $box->options = array(
     'body' => array(
-      'value' => '<form action="http://encore.stlawu.edu/iii/encore/Home,$Search.form.sdirect" id="form" method="get" name="form"><input id="target" name="target" onfocus="if (this.value==\'Search for books, videos, digital collections...\') this.value=\'\';" size="45" value="Search Encore..." type="text"><input value="Search" type="submit"><!--  <input type=image src="../images/search.gif" name="submit"/><br />
+      'value' => '<form action="http://encore.stlawu.edu/iii/encore/Home,$Search.form.sdirect" id="form" method="get" name="form"><input id="target" name="target" onfocus="if (this.value==\'Search for books, videos, digital collections...\') this.value=\'\';" size="35" value="Search Encore..." type="text"><input value="Search" type="submit"><!--  <input type=image src="../images/search.gif" name="submit"/><br />
 --><input name="formids" value="target" type="hidden"><input name="lang" value="eng" type="hidden"><input name="suite" value="def" type="hidden"><input name="reservedids" value="lang,suite" type="hidden"><br><input name="submitmode" value="" type="hidden"><input name="submitname" value="" type="hidden"></form>',
       'format' => 'full_html',
     ),
+    'additional_classes' => '',
   );
   $export['encore_mobile'] = $box;
 
