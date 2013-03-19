@@ -19,7 +19,7 @@ function library_search_cluster_mobile_default_box() {
   $box->description = 'Encore Mobile Version';
   $box->options = array(
     'body' => array(
-      'value' => '<form action="http://encore.stlawu.edu/iii/encore/Home,$Search.form.sdirect" id="form" method="get" name="form"><input id="target" name="target" onfocus="if (this.value==\'Search for books, videos, digital collections...\') this.value=\'\';" size="30" value="Search Encore..." type="text"><input value="Search" type="submit"><!--  <input type=image src="../images/search.gif" name="submit"/><br />
+      'value' => '<form action="http://encore.stlawu.edu/iii/encore/Home,$Search.form.sdirect" id="form" method="get" name="form"><input id="target" name="target" onfocus="if (this.value==\'\') this.value=\'\';" size="30" value="" type="text"><input value="Search" type="submit"><!--  <input type=image src="../images/search.gif" name="submit"/><br />
 --><input name="formids" value="target" type="hidden"><input name="lang" value="eng" type="hidden"><input name="suite" value="def" type="hidden"><input name="reservedids" value="lang,suite" type="hidden"><br><input name="submitmode" value="" type="hidden"><input name="submitname" value="" type="hidden"></form>',
       'format' => 'full_html',
     ),
@@ -36,7 +36,7 @@ function library_search_cluster_mobile_default_box() {
   $box->description = 'Journal Search Mobile Version';
   $box->options = array(
     'body' => array(
-      'value' => '<form action="http://ba4rv7xl7m.search.serialssolutions.com/" method="get"><input name="V" value="1.0" type="hidden"><input name="N" value="100" type="hidden"><input name="L" value="BA4RV7XL7M" type="hidden"><input name="S" value="T_B" type="hidden"><input name="C" onfocus="if (this.value==\'Search by journal title...\') this.value=\'\';" size="25" value="Search by journal title..."><input value="Search" type="submit">&nbsp;</form>',
+      'value' => '<form action="http://ba4rv7xl7m.search.serialssolutions.com/" method="get"><input name="V" value="1.0" type="hidden"><input name="N" value="100" type="hidden"><input name="L" value="BA4RV7XL7M" type="hidden"><input name="S" value="T_B" type="hidden"><input name="C" onfocus="if (this.value==\'\') this.value=\'\';" size="25" value=""><input value="Search" type="submit">&nbsp;</form>',
       'format' => 'full_html',
     ),
     'additional_classes' => '',
@@ -52,7 +52,7 @@ function library_search_cluster_mobile_default_box() {
   $box->description = 'ODYsseus Mobile Version';
   $box->options = array(
     'body' => array(
-      'value' => '<form action="http://library.stlawu.edu/search/X" method="post"><select name="searchtype"><option value="a">Author</option><option selected="selected" value="t">Title</option><option value="d">Subject</option><option value="X">Keyword</option><option value="c">Call Number</option></select><p><input maxlength="75" name="searcharg" onfocus="if (this.value==\'Search ODYsseus) this.value=\'\';" size="25" value="Search..." type="text"><input name="submit" value="Search" type="submit"><br><input name="searchscope" value="3" type="hidden"></p></form>',
+      'value' => '<form action="http://library.stlawu.edu/search/X" method="post"><select name="searchtype"><option value="a">Author</option><option selected="selected" value="t">Title</option><option value="d">Subject</option><option value="X">Keyword</option><option value="c">Call Number</option></select><p><input maxlength="75" name="searcharg" onfocus="if (this.value==\'\') this.value=\'\';" size="25" value="" type="text"><input name="submit" value="Search" type="submit"><br><input name="searchscope" value="3" type="hidden"></p></form><p>&nbsp;</p>',
       'format' => 'full_html',
     ),
     'additional_classes' => '',
