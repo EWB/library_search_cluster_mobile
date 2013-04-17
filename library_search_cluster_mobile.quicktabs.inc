@@ -27,13 +27,6 @@ function library_search_cluster_mobile_quicktabs_default_quicktabs() {
       'type' => 'block',
     ),
     1 => array(
-      'bid' => 'search_delta_form',
-      'hide_title' => 1,
-      'title' => 'Site Search',
-      'weight' => '-99',
-      'type' => 'block',
-    ),
-    2 => array(
       'nid' => '',
       'teaser' => 0,
       'hide_title' => 1,
@@ -41,21 +34,21 @@ function library_search_cluster_mobile_quicktabs_default_quicktabs() {
       'weight' => '-98',
       'type' => 'node',
     ),
-    3 => array(
+    2 => array(
       'bid' => 'boxes_delta_journal_search_mobile',
       'hide_title' => 1,
       'title' => 'Journals',
       'weight' => '-97',
       'type' => 'block',
     ),
-    4 => array(
+    3 => array(
       'bid' => 'boxes_delta_odysseus_mobile',
       'hide_title' => 1,
       'title' => 'ODYsseus',
       'weight' => '-96',
       'type' => 'block',
     ),
-    5 => array(
+    4 => array(
       'bid' => 'boxes_delta_video_search_mobile',
       'hide_title' => 1,
       'title' => 'Videos',
@@ -80,7 +73,6 @@ function library_search_cluster_mobile_quicktabs_default_quicktabs() {
   t('Journals');
   t('Library Search Cluster Mobile');
   t('ODYsseus');
-  t('Site Search');
   t('Videos');
 
   $export['library_search_cluster_mobile'] = $quicktabs;
